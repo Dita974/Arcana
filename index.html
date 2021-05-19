@@ -53,32 +53,40 @@
                 <p class="smaller">With a much smaller subtitle hanging out just below it</p>            
         </section>
         <section id="flex">
-            <div id="first">
-                <div>
+            <div class="container_1">
+                <div class="card">
                     <img src="img/picture1.jpg" alt="rue NY">
+                    <div class="flex">
                     <h2>The First Thing</h2>
                     <br>
                     <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
                 </div>
-                <div>
-                    <img src="img/picture3.jpg" alt="laptop">                    
-                    <h2>The Third Thing</h2>
+                </div>
+                <div class="card">
+                    <img src="img/picture2.jpg" alt="smartphone"/>
+                    <div class="flex">                   
+                    <h2>The Second Thing</h2>
                     <br>
                     <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+                </div> 
                 </div>
             </div>
-            <div id="second">
-                <div>
-                    <img src="img/picture2.jpg" alt="smartphone">
-                    <h2>The Second Thing</h2>                    
+            <div class="container_2">
+                <div class="card">
+                    <img src="img/picture3.jpg" alt="laptop"/>
+                    <div class="flex">
+                    <h2>The Third Thing</h2>                    
                     <br>
                     <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
                 </div>
-                <div>
+                </div>
+                <div class="card">
                     <img src="img/picture4.jpg" alt="metro">
+                    <div class="flex">
                     <h2>The Fourth Thing</h2>
                     <br>
                     <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+                </div>
                 </div>
             </div>
         </section>
@@ -91,41 +99,41 @@
         
     </main>
     <footer id="footer">
-            <div class="list">
-                <h3>Links to Stuff</h3>
-                <ul>
-                    <li><a href="">Mattis et rutrum</a></li>
-                    <li><a href="">Suspendisse amet varius</a></li>
-                    <li><a href="">Sed et dapibus quis</a></li>
-                    <li><a href="">Rutrum accumsan dolor</a></li>
-                    <li><a href="">Mattis rutrum accumsan</a></li>
-                    <li><a href="">Duis neque nisi sed</a></li>
-                </ul>
-            </div>
-            <div class="list">
-                <h3>More Links to Stuff</h3>
-                <ul>
-                    <li><a href="">Duis neque nisi dapibus</a></li>
-                    <li><a href="">Sed et dapibus quis</a></li>
-                    <li><a href="">Rutrum accumsan sed</a></li>
-                    <li><a href="">Mattis et sed accumsan</a></li>
-                    <li><a href="">Duis neque nisi sed quis</a></li>
-                    <li><a href="">Sed et dapibus quis</a></li>
-                </ul>
+        <div class="list">
+            <h3>Links to Stuff</h3>
+            <ul>
+                <li><a href="">Mattis et rutrum</a></li>
+                <li><a href="">Suspendisse amet varius</a></li>
+                <li><a href="">Sed et dapibus quis</a></li>
+                <li><a href="">Rutrum accumsan dolor</a></li>
+                <li><a href="">Mattis rutrum accumsan</a></li>
+                <li><a href="">Duis neque nisi sed</a></li>
+            </ul>
+        </div>
+        <div class="list">
+            <h3>More Links to Stuff</h3>
+            <ul>
+                <li><a href="">Duis neque nisi dapibus</a></li>
+                <li><a href="">Sed et dapibus quis</a></li>
+                <li><a href="">Rutrum accumsan sed</a></li>
+                <li><a href="">Mattis et sed accumsan</a></li>
+                <li><a href="">Duis neque nisi sed quis</a></li>
+                <li><a href="">Sed et dapibus quis</a></li>
+            </ul>
+        </div>
+        <div class="form">
+            <h3>Get in Touch</h3>
+            <form id="contactForm">
+                <div id="name_email">
+                    <input type="text" id="name" placeholder="Name" />
+                    <input type="text" id="email" placeholder="Email" />
                 </div>
-                <div class="form">
-                    <h3>Get in Touch</h3>
-                    <form id="contactForm">
-                        <div id="name_email">
-                            <input type="text" id="name" placeholder="Name" />
-                            <input type="text" id="email" placeholder="Email" />
-                        </div>
-                        <textarea id="message" placeholder="Message"></textarea>
-                        <br><br>
-                        <input type="submit" value="Send Message" id="submit" />
-                        
-                    </form>
-                </div>
+                <textarea id="message" placeholder="Message"></textarea>
+                <br><br>
+                <input type="submit" value="Send Message" id="submit" />
+               
+            </form>
+        </div>
     </footer> 
 </body>
 </html>
